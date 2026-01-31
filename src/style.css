@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #202025;
+}
+
+canvas,
+#ui-container {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+
+body.game-active canvas,
+body.game-active #ui-container {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Animations Cookies */
+@keyframes cookieFadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -40%) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@keyframes cookieMinimize {
+    to {
+        top: calc(100% - 60px);
+        left: calc(100% - 60px);
+        transform: translate(0, 0) scale(0.2);
+        opacity: 0;
+    }
+}
+
+@keyframes floatIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cookie-modal {
+    animation: cookieFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.cookie-modal.minimizing {
+    animation: cookieMinimize 0.6s cubic-bezier(0.7, 0, 0.84, 0) forwards;
+}
+
+.cookie-badge {
+    animation: floatIn 0.8s ease-out forwards;
+}

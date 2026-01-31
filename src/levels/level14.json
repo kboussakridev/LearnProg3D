@@ -1,0 +1,42 @@
+{
+    "biome": "sky",
+    "grid": [
+        15,
+        8
+    ],
+    "monkeyStart": [
+        0,
+        4
+    ],
+    "bananas": [
+        {
+            "x": 14,
+            "y": 4
+        }
+    ],
+    "turtles": [],
+    "crocodiles": [
+        {
+            "x": 5,
+            "y": 4,
+            "rotation": 90,
+            "patrol": 2
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "rotation": 90,
+            "patrol": 2
+        }
+    ],
+    "switches": [],
+    "gates": [],
+    "teleporters": [],
+    "platforms": [],
+    "snakes": [],
+    "pushables": [],
+    "stars": {
+        "3": 15,
+        "2": 20
+    }
+}

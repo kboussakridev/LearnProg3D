@@ -1,0 +1,43 @@
+{
+    "biome": "digital",
+    "grid": [
+        15,
+        10
+    ],
+    "monkeyStart": [
+        0,
+        5
+    ],
+    "bananas": [
+        {
+            "x": 14,
+            "y": 5
+        }
+    ],
+    "turtles": [],
+    "crocodiles": [],
+    "switches": [],
+    "gates": [],
+    "teleporters": [],
+    "platforms": [
+        {
+            "path": [
+                {
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "x": 12,
+                    "y": 5
+                }
+            ],
+            "speed": 4
+        }
+    ],
+    "snakes": [],
+    "pushables": [],
+    "stars": {
+        "3": 10,
+        "2": 15
+    }
+}

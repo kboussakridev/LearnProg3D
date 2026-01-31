@@ -1,0 +1,34 @@
+{
+    "biome": "digital",
+    "grid": [
+        10,
+        10
+    ],
+    "monkeyStart": [
+        0,
+        0
+    ],
+    "bananas": [
+        {
+            "x": 5,
+            "y": 5
+        }
+    ],
+    "pushables": [
+        {
+            "x": 4,
+            "y": 4
+        }
+    ],
+    "snakes": [
+        {
+            "x": 6,
+            "y": 6,
+            "range": 2
+        }
+    ],
+    "stars": {
+        "3": 10,
+        "2": 20
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "biome": "night",
+    "grid": [
+        10,
+        10
+    ],
+    "monkeyStart": [
+        0,
+        0
+    ],
+    "bananas": [
+        {
+            "x": 9,
+            "y": 9
+        }
+    ],
+    "turtles": [],
+    "crocodiles": [
+        {
+            "x": 5,
+            "y": 5,
+            "rotation": 45,
+            "patrol": 2
+        }
+    ],
+    "switches": [
+        {
+            "x": 2,
+            "y": 0,
+            "gateId": 1,
+            "duration": 8
+        }
+    ],
+    "gates": [
+        {
+            "x": 8,
+            "y": 8,
+            "gateId": 1
+        }
+    ],
+    "teleporters": [
+        {
+            "x": 3,
+            "y": 0,
+            "pairId": 1
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "pairId": 1
+        }
+    ],
+    "platforms": [
+        {
+            "path": [
+                {
+                    "x": 2,
+                    "y": 8
+                },
+                {
+                    "x": 6,
+                    "y": 8
+                }
+            ],
+            "speed": 2
+        }
+    ],
+    "snakes": [
+        {
+            "x": 1,
+            "y": 0,
+            "rotation": 0,
+            "range": 1
+        }
+    ],
+    "stars": {
+        "3": 12,
+        "2": 20
+    }
+}

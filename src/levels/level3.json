@@ -1,0 +1,66 @@
+{
+    "biome": "jungle",
+    "grid": [
+        10,
+        10
+    ],
+    "monkeyStart": [
+        1,
+        1
+    ],
+    "bananas": [
+        {
+            "x": 8,
+            "y": 8
+        }
+    ],
+    "gates": [
+        {
+            "x": 7,
+            "y": 8,
+            "gateId": 1
+        }
+    ],
+    "switches": [
+        {
+            "x": 1,
+            "y": 8,
+            "gateId": 1,
+            "duration": 5
+        }
+    ],
+    "teleporters": [
+        {
+            "x": 3,
+            "y": 1,
+            "pairId": 1,
+            "color": 10180534
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "pairId": 1,
+            "color": 10180534
+        }
+    ],
+    "platforms": [
+        {
+            "points": [
+                {
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "x": 5,
+                    "y": 4
+                }
+            ],
+            "speed": 2
+        }
+    ],
+    "stars": {
+        "3": 10,
+        "2": 15,
+        "1": 25
+    }
+}

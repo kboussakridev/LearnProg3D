@@ -1,0 +1,49 @@
+{
+    "biome": "volcano",
+    "grid": [
+        10,
+        10
+    ],
+    "monkeyStart": [
+        0,
+        5
+    ],
+    "bananas": [
+        {
+            "x": 9,
+            "y": 5
+        }
+    ],
+    "turtles": [],
+    "crocodiles": [],
+    "switches": [],
+    "gates": [],
+    "teleporters": [
+        {
+            "x": 4,
+            "y": 5,
+            "pairId": 1
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "pairId": 1
+        }
+    ],
+    "platforms": [],
+    "snakes": [],
+    "pushables": [
+        {
+            "x": 3,
+            "y": 5
+        },
+        {
+            "x": 5,
+            "y": 5
+        }
+    ],
+    "stars": {
+        "3": 10,
+        "2": 15
+    }
+}

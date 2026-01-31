@@ -1,0 +1,33 @@
+{
+    "biome": "digital",
+    "grid": [
+        10,
+        10
+    ],
+    "monkeyStart": [
+        0,
+        9
+    ],
+    "bananas": [
+        {
+            "x": 9,
+            "y": 0
+        }
+    ],
+    "teleporters": [
+        {
+            "x": 5,
+            "y": 5,
+            "pairId": 1
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "pairId": 1
+        }
+    ],
+    "stars": {
+        "3": 15,
+        "2": 25
+    }
+}

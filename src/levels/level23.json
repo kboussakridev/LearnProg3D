@@ -1,0 +1,35 @@
+{
+    "biome": "digital",
+    "grid": [
+        12,
+        12
+    ],
+    "monkeyStart": [
+        0,
+        0
+    ],
+    "bananas": [
+        {
+            "x": 11,
+            "y": 11
+        }
+    ],
+    "switches": [
+        {
+            "x": 6,
+            "y": 0,
+            "gateId": 1
+        }
+    ],
+    "gates": [
+        {
+            "x": 6,
+            "y": 11,
+            "gateId": 1
+        }
+    ],
+    "stars": {
+        "3": 20,
+        "2": 30
+    }
+}
